@@ -3,7 +3,11 @@
    "how to change link color." */
 
 body {
-  background-color: white;
-  color: black;
+  background-color: #232136;
+  color: #e0def4;
  font-family: 'FragmentMono-Regular', monospace;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
