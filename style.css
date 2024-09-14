@@ -6,10 +6,10 @@ body {
   background-color: #232136;
   color: #e0def4;
  font-family: 'FragmentMono-Regular', monospace;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-right: 30px;
   padding-bottom: 50px;
-  padding-left: 80px;
+  padding-left: 10px;
 }
 a:link {
    color: #3e8fb0
