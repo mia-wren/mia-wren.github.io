@@ -11,3 +11,9 @@ body {
   padding-bottom: 50px;
   padding-left: 80px;
 }
+a:link {
+   color: #3e8fb0
+}
+a:visited {
+   color: #c4a7e7
+}
