@@ -1,11 +1,15 @@
 /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
+@font-face {
+  font-family: FragmentMono;
+  src: url(FragmentMono.woff);
+}
 
 body {
+  font-family: "FragmentMono"
   background-color: #232136;
   color: #e0def4;
- font-family: 'FragmentMono-Regular', monospace;
   padding-top: 20px;
   padding-right: 30px;
   padding-bottom: 50px;
