@@ -2,15 +2,15 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
    @font-face {
-      font-family: 'FragmentMono';
-      src: url('/FragmentMono.woff') format('woff');
+      font-family: 'FiraSans';
+      src: url('/FiraSans.woff') format('woff');
       font-weight: normal;
       font-style: normal;
   }
-  
+
 body {
   background-color: #232136;
-  font-family: 'FragmentMono', monospace;
+  font-family: 'FiraSans', sans-serif;
   color: #e0def4;
   padding-top: 20px;
   padding-right: 30px;
