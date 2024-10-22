@@ -9,59 +9,53 @@
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  <html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Column Layout</title>
     <style>
-body {
-  background-color: #232136; 
-}
-</style>
-  </head>
-   <div class="header">
-  <div class="header-right">
-    <a class="active" href="index.html">Home</a>
-    <a href="starsguideourway.html">Writing</a>
-    <a href="bloghome.html">Blog</a>
-  </div>
-</div> 
-  <h1> baps u with my paw.</h1>
-  <div style="text-align:center">   
-  <p> hello. my name is mia wren, and this is my homepage.</p>
-  <img src="kittygirl.gif" alt="A blinkie reading kitty girl"> <img src="archuser.gif" alt="A blinkie reading arch user btw">
-  <img src="transfemme.gif" alt="A blinkie reading transfemme">
-  <img src="estrogen.gif" alt="A blinkie reading powered by estrogen">
-    <p><img src="boys.gif" alt="a blinkie reading love boys with emoticon hearts">
-    <img src="linux.jpg" alt="A small blinkie reading Linux now">
-    <img src="stupid.gif" alt="a blinkie reading queer and stupid">
-    </p> </div>
-<h1> Beep! Mrrp! Meow! Boop!</h1>
-    <img src="transnerds.gif" alt="A blinkie reading trans nerds run the web">
-<p style="text-align:left;"> Hi, my name is Mia :-) I'm a 19 year old trans woman- she/her pronouns. 
-I've been on estrogen since 12-12-2019.
-I'm located in South Africa- my timezone is GMT+2. I am also British, however, so if you see me talking about the UK, that's why!
-I'm passionate about open-source tech, history and historiography, Linux, and fantasy literature. 
-I'm disabled, with fibromyalgia and medium-support-needs autism, so if I struggle with communication please forgive me!
-This site is hosted using GitHub Pages with a custom domain added.
-</p>
-<p>You can reach me on Discord, @sigilmoons.
-Alternatively, on Matrix, <a href="https://matrix.to/#/@miawren:catgirl.cloud">here.</a>
-</p>
-<h1>More about me...</h1>
-  <p style="text-align:left;">I'm a robot-aligned cat therian! 
-  I'm aiming to specialise into the field of Unix system administration, and I'm fairly knowledgeable
-  about the workings of Linux. I run Arch (btw), and I'm very passionate about making free and open-source tech
-  more widely accessible.</p>
+    body {
+      background-color: #232136;
+    }
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .column {
+            background-color: #232136; 
+            padding: 20px;
+            margin: 10px;
+            flex: 1;
+          
+        }
+    </style>
+</head>
+<body>
 
-<h1>Sitemap</h1>
-  
-<a href="starsguideourway.html">Stars Guide Our Way, personal sci-fantasy story</a>
+    <h1>Three Column Layout</h1>
+    <div class="container">
+        <div class="column">
+            <h2>baps u with my paw</h2>
+            <p>Hi, my name is Mia :-) I'm a 19 year old trans woman- she/her pronouns. 
+              I've been on estrogen since 12-12-2019.
+              I'm located in South Africa- my timezone is GMT+2. I am also British, however, so if you see me talking about the UK, that's why!
+              I'm passionate about open-source tech, history and historiography, Linux, and fantasy literature. 
+              I'm disabled, with fibromyalgia and medium-support-needs autism, so if I struggle with communication please forgive me!
+              This site is hosted using GitHub Pages with a custom domain added.</p>
+        </div>
+        <div class="column">
+            <h2>More about me</h2>
+            <p>I'm a robot-aligned cat therian! 
+              I'm aiming to specialise into the field of Unix system administration, and I'm fairly knowledgeable
+              about the workings of Linux. I run Arch (btw), and I'm very passionate about making free and open-source tech
+              more widely accessible.</p>
+        </div>
+        <div class="column">
+            <h2></h2>
+            <p>This is some placeholder text for the third column. Add more information as needed.</p>
+        </div>
+    </div>
 
-<hr>
-
-
-<div style="text-align:center">    
- 
-<p> <a href="https://stellophiliac.github.io/roboring">||roboring||</a> </p>
-<p> <a href="https://stellophiliac.github.io/roboring/calicobot/next">next-> </a> </p>
-<p><a href="https://stellophiliac.github.io/roboring/calicobot/previous"> <-prev </a> </p>
-</div>
-  
-<p style="font-size: 10px;">mia mckeown, feel free to contact me also here: miamckeown@pm.me</p>
+</body>
+</html>
