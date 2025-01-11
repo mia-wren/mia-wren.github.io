@@ -14,27 +14,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calicocore</title>
     <style>
-    .flex-container {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-   }
-
+@media (min-width: 1024px) {
+  body {
+      background-color: #232136;
+    }
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .column {
+            background-color: #232136; 
+            padding: 20px;
+            margin: 10px;
+            flex: 1;
+          
+        }
+}
     </style>
+
 </head>
 <body>
-  <div style="text-align: center;">
-    <h1>Hello there, traveller on the net!</h1>
-<p>You appear to have stumbled upon the webpage owned by a kitty-robot unit named Mia.</p>
-<p>Welcome to this sanctuary.</p>
-  </div>
-<div style="text-align: center;">
-  <h2>About me</h2>
+<h1>Hi!</h1>
+<div class="container">
+  <div class="column">
+    <h2>You appear to have stumbled upon my webpage.</h2>
+    <p><h2>About me</h2>
       <p>Hi, my name is Mia! I'm a robot-aligned cat furry working in the field of Unix systems administration.</p>
       <p>I'm passionate about open-source tech, Linux, historiography, science-fantasy fiction, and good tea.
         I use she/her pronouns exclusively- I'm a trans woman! I've been on estrogen since 12-12-2019, which is a nice round date working both for Americans and for sane people :p.
         </p>
-</div>
+  </p>
+  <div class="column">
+    <p>Hdjshdsjfh</p>
+  </div>
 <p><i>Website managed by Mia McKeown, contact me here: miamckeown@pm.me</i></p>
 <p align="center">
   <a href="https://stellophiliac.github.io/roboring/calicobot/previous">prev</a> 
