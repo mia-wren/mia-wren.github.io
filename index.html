@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sidebar Layout</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 250px;
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+    }
+
+    .sidebar h2 {
+      margin-top: 0;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 10px 0;
+    }
+
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main content */
+    .content {
+      flex: 1;
+      padding: 60px 80px; /* High margins */
+      background-color: #f4f4f4;
+    }
+
+    .content h1 {
+      margin-top: 0;
+    }
+
+    .placeholder {
+      line-height: 1.6;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Navigation</h2>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <div class="content">
+    <h1>Welcome</h1>
+    <p class="placeholder">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae congue urna. 
+      Fusce posuere sem in diam facilisis, a dictum lacus porta. Sed dapibus nulla et orci 
+      malesuada, sed tincidunt justo tincidunt. Mauris in orci vitae velit posuere congue. 
+      Integer in felis eget eros posuere porta a id lorem. Cras imperdiet, mi nec euismod 
+      tincidunt, sapien leo laoreet libero, id sodales eros enim vitae erat.
+    </p>
+  </div>
+</body>
+</html>
 
